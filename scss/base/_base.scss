@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size: $original-font-size;
+  color: $text-general-color;
+  margin: 0;
+}
+
+ul {
+  text-align: center;
+}
+
+p {
+  font-size: resize-font-px($general-font-percent);
+  margin-bottom: 20px;
+
+}
+
+a {
+  text-decoration: none;
+}

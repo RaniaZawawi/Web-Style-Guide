@@ -1,0 +1,11 @@
+// *****************************************************************************
+//           center-content Mixin: used to generate css to center content
+//                      by setting width with the arguement passed,
+//  and setting margins; top-bottom (optional - if specified, else set to zeros)
+//                            and set equal margin left-right
+// *****************************************************************************
+
+@mixin center-content ($percent, $margin: 0){
+  width: $percent;
+  margin: $margin auto;
+}

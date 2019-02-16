@@ -1,0 +1,22 @@
+// *****************************************************************************
+//                          Navigation Item css rules
+//                    styles anchor points with navigation
+//            styles mouse hover over anchor point within navigation
+// *****************************************************************************
+
+.nav__item {
+  margin: 5px;
+
+  a{
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    color: $text-general-color;
+
+    &:hover {
+      background-color: $secondary-color;
+      color: $off-color;
+    }
+  }
+}
