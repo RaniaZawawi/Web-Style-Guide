@@ -7,9 +7,8 @@
 // *****************************************************************************
 
 .form {
-  display: flex;
-  flex-direction: column;
-
+  @include flex-box(column);
+  
   legend {
     margin: 20px 0;
   }
@@ -28,5 +27,6 @@
     @include center-content (95%);
     padding: 10px 5px;
     margin-top: 10px;
+    @include font-fix($general-font-percent);
   }
 }

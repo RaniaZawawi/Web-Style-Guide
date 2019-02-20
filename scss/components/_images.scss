@@ -14,4 +14,7 @@
 
 .img--avatar {
   width: 60%;
+    @include media-query($break-point){
+      width: 50%;
+    }
 }

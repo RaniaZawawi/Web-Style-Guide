@@ -17,7 +17,7 @@
 }
 
 // *****************************************************************************
-//                         button section CSS rules:
+//               button section (other than default) CSS rules:
 //                       class starting with btn loop
 // *****************************************************************************
 
@@ -25,19 +25,5 @@
   .btn--#{$button-key} {
     @extend %btn;
     background-color: #{$button-color};
-  }
-}
-
-// *****************************************************************************
-//                          grid system section CSS rules:
-//                  color themes class & class starting with grid
-// *****************************************************************************
-
-@each $col-key, $col-color in $grid-colors {
-  .theme__colors.grid__#{$col-key} {
-    width: 100%;
-    margin-top: 5px;
-    background-color: #{$col-color};
-    text-align: left;
   }
 }

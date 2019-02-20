@@ -3,7 +3,7 @@
 // *****************************************************************************
 
 .headline--primary {
-  font-size: resize-font-px($Large-font-percent);
+  @include font-fix($large-font-percent);
   color: $secondary-color;
   margin-left: 25px;
   margin-bottom: 20px;
@@ -33,8 +33,8 @@
 //                          link css rules
 // *****************************************************************************
 
-a.link {
+.link {
   color: $link-color;
   font-weight: bold;
-  font-size: resize-font-px($general-font-percent);
+  @include font-fix($general-font-percent);
 }

@@ -11,16 +11,16 @@ $link-color: #18D6F7;
 //                                    Font size variables
 // *****************************************************************************
 
-$original-font-size: 16px;
+$orig-small-font-size: 16px;
+$orig-large-font-size: 24px;
 $general-font-percent: 0.75;
-$Large-font-percent: 1.6;
+$large-font-percent: 1.6;
 
 // *****************************************************************************
 //                                    Button colors variables
 // *****************************************************************************
 
 $button-colors: (
-  default: $link-color,
   success: #32CD32,
   error: #F08080,
   warning: #FF7F50,
@@ -40,3 +40,9 @@ $grid-colors: (
   col--8: #FA8072,
   col--12: $secondary-color,
 );
+
+// *****************************************************************************
+//                                    Media Queries variables
+// *****************************************************************************
+
+$break-point: 768px;
